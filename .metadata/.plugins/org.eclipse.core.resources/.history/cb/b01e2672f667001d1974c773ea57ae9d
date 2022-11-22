@@ -1,0 +1,35 @@
+
+public class Vehicles {
+	private String Engine;
+	private String Wheels;
+	private String Seats;
+	private String FualTanks;
+	private String Lights;
+	public Vehicles(String engine, String wheels, String seats, String fualTanks, String lights) {
+		super();
+		this.Engine = engine;
+		this.Wheels = wheels;
+		this.Seats = seats;
+		this.FualTanks = fualTanks;
+		this.Lights = lights;
+	}
+	public String getEngine() {
+		return Engine;
+	}
+	public String getWheels() {
+		return Wheels;
+	}
+	public String getSeats() {
+		return Seats;
+	}
+	public String getFualTanks() {
+		return FualTanks;
+	}
+	public String getLights() {
+		return Lights;
+	}
+	public void IsEmpty() {
+		System.out.println("Empty");
+	}
+	
+}
