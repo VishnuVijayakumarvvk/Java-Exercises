@@ -1,0 +1,13 @@
+package org.stydy;
+
+public class UserInput {
+
+	public static void main(String[] args) {
+		System.out.println("Welcome to the java class for user input:");
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Please enter your name: ");
+		String name = sc.next();
+		
+	}
+
+}

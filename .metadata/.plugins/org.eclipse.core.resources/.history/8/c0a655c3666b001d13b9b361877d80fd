@@ -1,0 +1,9 @@
+package org.main;
+
+public class Vegan extends Person {
+
+	public void eat() {
+		System.out.println("Eats online vegitable foods");	
+	}
+
+}

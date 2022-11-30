@@ -1,0 +1,17 @@
+package throwsthrow;
+
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+
+public class Hello {
+	public static void main(String[] args) throws Exception {
+		System.out.println("The value of main is printed: ");
+		sum();
+	}
+	public static void sum() throws Exception {
+		//FileReader f= new FileReader("file.txt");
+		System.out.println("The value of sum is printed");
+		throw new FileNotFoundException();
+	}
+
+}

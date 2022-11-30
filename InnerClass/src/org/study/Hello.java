@@ -1,0 +1,10 @@
+package org.study;
+
+public class Hello {
+
+	public static void main(String[] args) {
+		Door d1=new Door();
+		d1.IsStatus();
+	}
+
+}
