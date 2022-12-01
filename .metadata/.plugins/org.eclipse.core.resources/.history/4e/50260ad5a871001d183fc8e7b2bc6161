@@ -1,0 +1,20 @@
+package org.study;
+
+import java.io.FileNotFoundException;
+
+public class Hello {
+
+	public static void main(String[] args) throws Exception,FileNotFouundException{
+		System.out.println("The main is printed: ");
+
+	}
+	public static void sum() throws Exception,FileNotFoundException{
+		int x=1;
+		switch(x) {
+		case 1: throw new FileNotFouundException();
+		break();
+		case 2: throw new Exception();
+		}
+	}
+
+}
