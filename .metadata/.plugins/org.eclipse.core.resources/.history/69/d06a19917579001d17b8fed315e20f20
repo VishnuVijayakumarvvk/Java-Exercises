@@ -1,0 +1,26 @@
+package org.study;
+
+import java.util.LinkedList;
+
+public class GenericList {
+	class Data<T>{
+		private T datas;
+
+		public Data(T datas) {
+			super();
+			this.datas = datas;
+		}
+
+		public T getDatas() {
+			return datas;
+		}
+		
+	}
+
+	public static void main(String[] args) {
+		List<Data<Object>> lst = new LinkedList<>();
+		
+
+	}
+
+}

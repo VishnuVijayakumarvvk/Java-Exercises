@@ -1,0 +1,37 @@
+package org.study;
+//class GenericClass<T>{
+//	private T data;
+//
+//	public GenericClass(T data) {
+//		this.data = data;
+//	}
+//
+//	public T getData() {
+//		return data;
+//	}
+//	
+//}
+class GenericClass<T>{
+	private T data;
+
+	public GenericClass(T data) {
+		this.data = data;
+	}
+
+	public T getData() {
+		return data;
+	}
+	
+}
+
+public class Generics {
+	public static void main(String[] args) {
+		GenericClass<String> datas= new GenericClass<String>("Namae = Vishnu");
+		String values = datas.getData();
+		System.out.println(values);
+	
+		GenericClass<String> st =  new GenericClass<String>("Age = 24");
+		String AgeOfPerson = st.getData();
+		System.out.println(AgeOfPerson);
+	}
+}
